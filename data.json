@@ -1,0 +1,78 @@
+{
+    "Philosophy":[
+        {
+            "id":1001,
+            "author": "Aristotle",
+            "quote" : "The root of education is bitter, but the fruits are sweet."
+        },
+        {
+            "id":1003,
+            "author": "Napolean Bonapart",
+            "quote" : "I don't fear any Army in the world. But when I hear the name of Gurkhas, I am scared."
+        },
+        {
+            "id":1004,
+            "author":"Albert Einstine",
+            "quote": "If you judge a fish by its ability to climb a tree, it will spend its whole life thinking it is stupid."
+        },
+        {
+            "id":1004,
+            "author":"Socrates",
+            "quote": "To fear death, my friends is only to think ourselves wise, without being wise: for it is to think that we know what we do not know. For anything that men can tell, death may be the greatest good that can happen to them: but they fear it as if they knew quite well that it was the greatest of evils"
+        }
+
+
+    ],
+    "Art":[
+        {
+            "id":2001,
+            "author": "Arthur Schopenhauer",
+            "quote" : "Treat a work of art like a prince. Let it speak to you first."
+        },
+        {
+            "id":2002,
+            "author": "Pablo Picaso",
+            "quote" : "Everything you can imagine is real."
+        },
+        {
+            "id":2003,
+            "author": "Albert Einstine",
+            "quote" : "The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science."
+        },
+        {
+            "id":2004,
+            "author": "Andy Warhol",
+            "quote" : "Don’t think about making art, just get it done. Let everyone else decide if it’s good or bad, whether they love it or hate it.  While they are deciding, make even more art."
+        },
+        {
+            "id":2005,
+            "author": "Johann Wolfgang von Goethe",
+            "quote" : "One ought, every day at least, to hear a little song, read a good poem, see a fine picture, and, if it were possible, to speak a few reasonable words."
+        }
+    ],
+    "Revolution":[
+        {
+            "id":3001,
+            "author": "Subash Chandra Bose",
+            "quote" : "Give me blood, I will give you freedom."
+        },
+        {
+            "id":3002,
+            "author": "Che Guevera",
+            "quote" :"We cannot be sure of having something to live for unless we are willing to die for it."
+        },
+        {
+            "id":3003,
+            "author": "Martin Luther King Jr.",
+            "quote" :"Injustice anywhere is a threat to justice everywhere."
+        },
+        {
+            "id":3004,
+            "author": "Nelson Mandela",
+            "quote" :"I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear."
+        }
+
+    ]
+
+
+}

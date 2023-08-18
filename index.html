@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />    <title>Quote Generator</title>
+</head>
+<body class="flex">
+    <main class="main flex flex-column justify-center align-center m-auto light">
+        <div class="flex flex-row w-100 flex-row-reverse">
+            
+            <div class="toggle center flex w-25">
+                <label class="switch w-50">
+                    <input type="checkbox" value="light" id="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <h1 class="center w-50">Quote of the day</h1>
+            <div class="radio toggle flex flex-row align-center justify-center w-25">
+                <input class="sm" type="radio" name="font-size" value="sm" id="radio-sm">
+                <label for="radio-sm" class="w-25 sm flex align-center justify-center">
+                    <span class="sm btn text-center w-100">A-</span>
+                </label>
+
+                <input class="md" type="radio" name="font-size" value="md" id="radio-md" checked>
+                <label for="radio-md" class="w-25 md">
+                    <span class="md btn text-center w-100">A</span>
+                </label>
+
+                <input class="lg" type="radio" name="font-size" value="lg" id="radio-lg">
+                <label for="radio-lg" class="w-25 lg">
+                    <span class="lg btn text-center w-100">A+</span>
+                </label>
+
+            </div>
+        </div>
+        <div class="flex flex-row content">
+            <div class="flex-basis-1">
+                <select class="dropdown light dark" id="dropdown"></select>
+            </div>
+            <article class="quote flex-basis-3" id="quote">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id dolores ab deserunt minus, similique, ducimus provident quisquam explicabo, repellat ea voluptates obcaecati illum eos dolore maxime asperiores autem aliquam quis.</article>
+        </div>
+        <p class="author" id="author">- Anonymous</p>
+        <div class="flex">
+            <button class="btn light" id="prev">Previous</button>
+            <button class="btn light" id="next">Next</button>
+            <button class="btn light" id="random">Random</button>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
